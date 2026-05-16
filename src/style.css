@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --primary: #001D39;
-  --secondary: #7BBDE8;
-  --accent: #4E8EA2;
-  --bg: #001D39;
-  --surface: #0A4174;
-  --surface-light: #49769F;
-  --text: #BDD8E9;
-  --text-white: #ffffff;
-  --border: rgba(189, 216, 233, 0.2);
+  --primary: #3E2522;
+  --secondary: #D3A376;
+  --accent: #8C6E63;
+  --bg: #3E2522;
+  --surface: #4D322F;
+  --surface-light: #5E413E;
+  --text: #FFE0B2;
+  --text-white: #FFF2DF;
+  --border: rgba(211, 163, 118, 0.15);
   --radius: 16px;
   --shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
   --transition: all 0.3s ease;
@@ -26,9 +26,9 @@ body {
   font-family: 'Outfit', sans-serif;
   background: var(--bg);
   background-image: 
-    radial-gradient(at 0% 0%, #001D39 0, transparent 50%), 
-    radial-gradient(at 100% 0%, #0A4174 0, transparent 50%),
-    radial-gradient(at 50% 100%, #49769F 0, transparent 50%);
+    radial-gradient(at 0% 0%, #3E2522 0, transparent 50%), 
+    radial-gradient(at 100% 0%, #8C6E63 0, transparent 50%),
+    radial-gradient(at 50% 100%, #D3A376 0, transparent 50%);
   background-attachment: fixed;
   color: var(--text);
   line-height: 1.6;
@@ -37,7 +37,7 @@ body {
 
 /* Adjusting containers for the new background */
 main {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 242, 223, 0.03);
   backdrop-filter: blur(100px);
 }
 
@@ -227,7 +227,7 @@ header {
   padding: 30px;
   display: flex;
   flex-direction: column;
-  background: #001D39 !important; /* Solid background */
+  background: #3E2522 !important; /* Solid background */
   box-shadow: 20px 0 60px rgba(0, 0, 0, 0.8);
   border-right: 1px solid var(--secondary);
   position: relative;
@@ -380,7 +380,7 @@ header {
   position: absolute;
   top: 15px;
   right: 15px;
-  background: rgba(0, 29, 57, 0.6);
+  background: rgba(62, 37, 34, 0.6);
   width: 35px;
   height: 35px;
   border-radius: 50%;
@@ -389,7 +389,7 @@ header {
   justify-content: center;
   backdrop-filter: blur(5px);
   color: var(--text-white);
-  border: 1px solid rgba(189, 216, 233, 0.2);
+  border: 1px solid rgba(211, 163, 118, 0.2);
 }
 
 .product-info {
@@ -413,7 +413,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-  background: rgba(0, 29, 57, 0.4) !important;
+  background: rgba(62, 37, 34, 0.4) !important;
   border: 1px solid rgba(123, 189, 232, 0.1);
   margin-bottom: 0;
 }
@@ -676,7 +676,7 @@ input, textarea, select {
   padding: 14px 18px;
   border: 2px solid var(--border);
   border-radius: var(--radius);
-  background: rgba(0, 29, 57, 0.5);
+  background: rgba(62, 37, 34, 0.5);
   color: var(--text-white);
   font-size: 1rem;
   transition: var(--transition);
@@ -684,13 +684,13 @@ input, textarea, select {
 }
 
 input::placeholder, textarea::placeholder {
-  color: rgba(189, 216, 233, 0.4);
+  color: rgba(255, 224, 178, 0.4);
 }
 
 input:focus, textarea:focus {
   border-color: var(--secondary);
-  background: rgba(10, 65, 116, 0.8);
-  box-shadow: 0 0 0 4px rgba(123, 189, 232, 0.2);
+  background: rgba(77, 50, 47, 0.8);
+  box-shadow: 0 0 0 4px rgba(211, 163, 118, 0.2);
   outline: none;
 }
 
@@ -858,7 +858,7 @@ input:focus, textarea:focus {
   background: var(--surface);
   padding: 40px;
   border-radius: 28px;
-  border: 1px solid rgba(189, 216, 233, 0.1);
+  border: 1px solid rgba(211, 163, 118, 0.1);
   box-shadow: var(--shadow);
   width: 100%;
   color: var(--text-white);
