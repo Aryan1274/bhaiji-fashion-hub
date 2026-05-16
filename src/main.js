@@ -248,7 +248,7 @@ const AdminView = async () => {
       </form></div></div></div>
     `
     document.getElementById('admin-login-form').addEventListener('submit', (e) => {
-      e.preventDefault(); if (document.getElementById('admin-user').value === 'admin' && document.getElementById('admin-pass').value === 'bhaiji123') { state.isAdmin = true; sessionStorage.setItem('isAdmin', 'true'); AdminView() } else { alert('Invalid credentials') }
+      e.preventDefault(); if (document.getElementById('admin-user').value === 'arvrfashionhub' && document.getElementById('admin-pass').value === 'Bhaiji-hub2026') { state.isAdmin = true; sessionStorage.setItem('isAdmin', 'true'); AdminView() } else { alert('Invalid credentials') }
     }); lucide.createIcons(); return
   }
   const generatedSku = 'BJ-' + Math.random().toString(36).substr(2, 6).toUpperCase(); const { data: categories } = await supabase.from('categories').select('*')
