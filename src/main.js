@@ -1,5 +1,6 @@
 import './style.css'
 import { supabase } from './lib/supabase'
+import mainImg from './assets/main-img.jpeg'
 
 // --- STATE ---
 const state = {
@@ -134,7 +135,7 @@ const HomeView = async () => {
     <section class="carousel-container container">
       <div class="carousel" id="home-carousel">
         <div class="carousel-item active">
-          <img src="src/assets/main-img.jpeg" alt="New Arrivals">
+          <img src="${mainImg}" alt="New Arrivals">
         </div>
       </div>
     </section>
