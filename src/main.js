@@ -134,7 +134,7 @@ const HomeView = async () => {
     <section class="carousel-container container">
       <div class="carousel" id="home-carousel">
         <div class="carousel-item active">
-          <img src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&q=80&w=1200" alt="New Arrivals">
+          <img src="src/assets/main-img.jpeg" alt="New Arrivals">
         </div>
       </div>
     </section>
